@@ -1,0 +1,19 @@
+pkgbase = mkinitcpio-openswap
+	pkgdesc = plug mkinitcpio para abrir swap no momento da inicialização.
+	pkgver = 0.1.0
+	pkgrel = 3
+	url = http://localhost/mkinitcpio-openswap/
+	install = usage.install
+	arch = any
+	license = cIO
+	depends = mkinitcpio
+	backup = etc/openswap.conf
+	source = openswap.hook
+	source = openswap.install
+	source = openswap.conf
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = mkinitcpio-openswap
+
